@@ -1,7 +1,7 @@
 <?php
 
 return (object) array(
-    'url' => 'https://chatsenscene.alwaysdata.net'
+    'url' => 'https://chatsenscene.kubel.tech'
 );
 
 ?>
