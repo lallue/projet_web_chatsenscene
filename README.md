@@ -1,8 +1,8 @@
-# README.md - MonSiteDeChat
+## README.md - chatsenscene
 
 ## Description du projet
 
-MonSiteDeChat est un site web dédié aux chats, avec des images, des descriptions, un formulaire de contact, et un panneau d'administration pour gérer le contenu.
+chatsenscene est un site web dédié aux chats, avec des images, des descriptions, un formulaire de contact, et un panneau d'administration pour gérer le contenu.
 
 ## Technologies utilisées
 
@@ -28,10 +28,7 @@ MonSiteDeChat est un site web dédié aux chats, avec des images, des descriptio
 5. **Copier les fichiers du projet :**  Copiez tous les fichiers du projet dans le dossier racine de votre serveur web local.
 6. **Créer le dossier "uploads" :** Créez un dossier nommé "uploads" à la racine de votre site pour stocker les images. Assurez-vous que le dossier a les permissions d'écriture pour le serveur web.
 7. **Ajuster les chemins relatifs :**  Vérifiez et corrigez tous les chemins relatifs dans le code HTML, CSS, JavaScript et PHP en fonction de votre configuration locale.
-8. **Accéder au site web :** Ouvrez votre navigateur web et accédez à l'URL de votre site web local (par exemple, `http://localhost/MonSiteDeChat/`).
-
-## Remarques
-
-* Ce README est un exemple et doit être adapté à votre projet spécifique.
-* N'oubliez pas d'ajouter des informations sur l'auteur, la licence, etc.
-* Vous pouvez également inclure des instructions pour l'installation des dépendances, la configuration du serveur, etc.
+8. **Changer les URL des fichiers `config.php` et `script.js` :**
+    * **`config.php`**:  Si vous êtes en local, remplacez `http://www.example.com/` par `http://localhost/chatsenscene/` (ou l'URL de votre site local).
+    * **`script.js`**:  Remplacez le chemin relatif vers `config.php` par un chemin absolu, par exemple : `http://localhost/chatsenscene/config.php`.
+9. **Accéder au site web :** Ouvrez votre navigateur web et accédez à l'URL de votre site web local (par exemple, `http://localhost/chatsenscene/`).
