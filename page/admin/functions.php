@@ -4,7 +4,7 @@ function connectDatabase()
     $host = 'mysql-chatsenscene.alwaysdata.net';
     $dbname = 'chatsenscene_bdd';
     $user = '377209';
-    $password = 'lechatdemarde';
+    $password = 'azktui12345%%%%#';
 
     try {
         $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $user, $password);

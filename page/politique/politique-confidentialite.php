@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Politique de Confidentialité - MonSiteDeChat</title>
+    <title>Politique de Confidentialité - chatsenscene</title>
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="../../css/print.css" media="print">
     <script src="../../js/tooglescripte.js"></script>
@@ -21,7 +21,7 @@
 
         <section>
             <h2>1. Introduction</h2>
-            <p>Bienvenue sur <b>MonSiteDeChat</b> ! Ici, votre vie privée est aussi importante que la dernière sieste de votre chat. Promis, vos informations personnelles sont en sécurité, autant que des croquettes dans un bol bien gardé.</p>
+            <p>Bienvenue sur <b>chatsenscene</b> ! Ici, votre vie privée est aussi importante que la dernière sieste de votre chat. Promis, vos informations personnelles sont en sécurité, autant que des croquettes dans un bol bien gardé.</p>
         </section>
 
         <section>

@@ -7,7 +7,7 @@ function afficherFooter()
 ?>
     <div class="footer-content">
         <div class="footer-text-links">
-            <h6>© <?php echo $anneeActuelle; ?> MonSiteDeChat. Tous droits réservés.</h6>
+            <h6>© <?php echo $anneeActuelle; ?> chatsenscene. Tous droits réservés.</h6>
             <h6>
                 <a href="../../page/politique/mentions-legales.php">Mentions légales</a> |
                 <a href="../../page/politique/politique-confidentialite.php">Politique de confidentialité</a>
