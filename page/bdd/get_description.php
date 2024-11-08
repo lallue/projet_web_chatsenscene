@@ -31,7 +31,7 @@ try {
             }
 
             // Redimensionnement des images (utiliser $imageUrl)
-            $resizedImageUrl = '../../IMG/resizeImage.php?imageUrl=' . urlencode($imageUrl) . '&width=300&height=200';
+            $resizedImageUrl = '../../IMG/resizeImage.php?imageUrl=' . urlencode($imageUrl) . '&width=200&height=150';
             $resizedLightboxImageUrl = '../../IMG/resizeImage.php?imageUrl=' . urlencode($imageUrl) . '&width=600&height=400';
 
             // Affichage de l'image et de la lightbox

@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (images.length > 0) {
             var baseUrl = 'https://chatsenscene.kubel.tech/';
             var fullImageUrl = baseUrl + images[index];
-            var resizedImageUrl = 'IMG/resizeImage.php?imageUrl=' + encodeURIComponent(fullImageUrl) + '&width=400&height=300';
+            var resizedImageUrl = 'IMG/resizeImage.php?imageUrl=' + encodeURIComponent(fullImageUrl) + '&width=350&height=300';
 
             document.getElementById('dynamic-image').src = resizedImageUrl;
         }
