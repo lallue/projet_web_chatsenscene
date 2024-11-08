@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: mysql-chatsenscene.alwaysdata.net
--- Generation Time: Nov 08, 2024 at 06:21 PM
+-- Generation Time: Nov 08, 2024 at 06:38 PM
 -- Server version: 10.11.8-MariaDB
 -- PHP Version: 7.4.33
 
@@ -134,8 +134,9 @@ CREATE TABLE `utilisateur` (
 --
 
 INSERT INTO `utilisateur` (`id`, `utilisateur`, `password`) VALUES
-(1, 'admin', '$2y$10$EeztzMzbV1hpxy.J.rZdtOwt2iKH/budO97mxuA6PtfsjHNB35uz6'),
-(9, 'user', '$2y$10$Q5b3qxCF/4i.UbiH2o/U7.jyGAb.RsO2iwy7/686qfbTnqpWF.sdK');
+(1, 'administrateur', '$2y$10$/UKVttMntjwKnYaUxgwlZOZbk6yYSmVIcwAgt7kYoOWeLwsCZ9WVK'),
+(9, 'user', '$2y$10$Q5b3qxCF/4i.UbiH2o/U7.jyGAb.RsO2iwy7/686qfbTnqpWF.sdK'),
+(10, 'admin', '$2y$10$EeztzMzbV1hpxy.J.rZdtOwt2iKH/budO97mxuA6PtfsjHNB35uz6');
 
 --
 -- Indexes for dumped tables
@@ -215,7 +216,7 @@ ALTER TABLE `contactPersonne`
 -- AUTO_INCREMENT for table `utilisateur`
 --
 ALTER TABLE `utilisateur`
-  MODIFY `id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
