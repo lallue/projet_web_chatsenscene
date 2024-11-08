@@ -1,0 +1,92 @@
+:root {
+    --form-max-width: 600px;
+    --form-background-color: #ffffff;
+    --form-border-radius: 8px;
+    --form-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    --label-font-size: 1.2em;
+    --label-color: #2980b9;
+    --label-focus-color: #1abc9c;
+    --input-padding: 12px;
+    --input-border: 1px solid #ccc;
+    --input-border-radius: 5px;
+    --input-focus-border-color: #2980b9;
+    --input-focus-box-shadow: 0 0 5px rgba(41, 128, 185, 0.5);
+    --button-background-color: #2980b9;
+    --button-hover-background-color: #1abc9c;
+    --button-text-color: white;
+    --button-padding: 12px 20px;
+    --button-border-radius: 5px;
+    --button-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    --button-hover-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2)
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: var(--form-max-width);
+    margin: 40px auto;
+    padding: 20px;
+    background-color: var(--form-background-color);
+    border-radius: var(--form-border-radius);
+    box-shadow: var(--form-box-shadow)
+}
+
+label {
+    font-size: var(--label-font-size);
+    font-weight: 700;
+    color: var(--label-color);
+    cursor: pointer;
+    transition: color .3s
+}
+
+.input-field,
+.textarea-field {
+    resize: vertical;
+    padding: var(--input-padding);
+    border: var(--input-border);
+    border-radius: var(--input-border-radius);
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color .3s, box-shadow .3s
+}
+
+.input-field:focus,
+.textarea-field:focus {
+    border-color: var(--input-focus-border-color);
+    box-shadow: var(--input-focus-box-shadow);
+    outline: 0
+}
+
+.btn-modern {
+    background-color: var(--button-background-color);
+    color: var(--button-text-color);
+    padding: var(--button-padding);
+    border: none;
+    border-radius: var(--button-border-radius);
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color .3s, box-shadow .3s;
+    box-shadow: var(--button-box-shadow);
+    appearance: none
+}
+
+.btn-modern:hover {
+    background-color: var(--button-hover-background-color);
+    box-shadow: var(--button-hover-box-shadow)
+}
+
+.label-focus {
+    color: var(--label-focus-color)
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column
+}

@@ -1,0 +1,134 @@
+h2,
+h5 {
+    color: var(--text-color);
+    border-bottom: var(--heading-bottom-border)
+}
+
+h6,
+p {
+    margin: 15px 0;
+    line-height: var(--line-height)
+}
+
+.error-message,
+h1 {
+    text-align: center
+}
+
+body,
+h6,
+p,
+ul {
+    line-height: var(--line-height)
+}
+
+body,
+main section {
+    font-family: Arial, sans-serif
+}
+
+:root {
+    --primary-color: #2980b9;
+    --secondary-color: #FF6347;
+    --text-color: #333;
+    --body-font-size: 1rem;
+    --line-height: 1.6;
+    --heading-bottom-border: 2px solid var(--primary-color)
+}
+
+body {
+    font-size: var(--body-font-size);
+    color: var(--text-color)
+}
+
+h1 {
+    font-size: 2.5rem;
+    padding: 20px
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin: 20px 0 10px;
+    padding-bottom: 5px
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 15px 0 5px;
+    color: var(--text-color)
+}
+
+h4 {
+    font-size: 1.2rem;
+    margin: 10px 0 5px;
+    color: var(--text-color)
+}
+
+h5 {
+    font-size: 1.1rem
+}
+
+h6 {
+    font-size: 1rem
+}
+
+p {
+    font-size: 1.1rem
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color .3s
+}
+
+a:hover {
+    color: var(--secondary-color)
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 15px
+}
+
+li {
+    margin-bottom: 5px
+}
+
+strong {
+    font-weight: 700
+}
+
+em {
+    font-style: italic
+}
+
+main section {
+    padding: 20px;
+    margin: 20px auto;
+    text-align: left;
+    font-size: 1.1em;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 5px rgb(0 0 0 / .1);
+    width: 90%;
+    transition: transform .3s, box-shadow .3s
+}
+
+main section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgb(0 0 0 / .2)
+}
+
+main section h2 {
+    color: #333
+}
+
+main section p {
+    padding: 10px
+}
