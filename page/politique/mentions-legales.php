@@ -27,7 +27,7 @@
 
         <section>
             <h2>2. Hébergement</h2>
-            <p>Notre site est hébergé chez AlwaysData, une société humaine spécialisée dans la gestion de sites, même ceux créés pour nos amis à quatre pattes. Adresse : AlwaysData, 91 rue du Faubourg Saint-Honoré, 75008 Paris.</p>
+            <p>Notre site est hébergé chez kubel.tech et bdd alwaysdata, une société humaine spécialisée dans la gestion de sites, même ceux créés pour nos amis à quatre pattes. Adresse : kubel.tech et bdd alwaysdata, 91 rue du Faubourg Saint-Honoré, 75008 Paris.</p>
         </section>
 
         <section>
