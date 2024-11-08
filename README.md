@@ -29,6 +29,6 @@ chatsenscene est un site web dédié aux chats, avec des images, des description
 6. **Créer le dossier "uploads" :** Créez un dossier nommé "uploads" à la racine de votre site pour stocker les images. Assurez-vous que le dossier a les permissions d'écriture pour le serveur web.
 7. **Ajuster les chemins relatifs :**  Vérifiez et corrigez tous les chemins relatifs dans le code HTML, CSS, JavaScript et PHP en fonction de votre configuration locale.
 8. **Changer les URL des fichiers `config.php` et `script.js` :**
-    * **`config.php`**:  Si vous êtes en local, remplacez `http://www.example.com/` par `http://localhost/chatsenscene/` (ou l'URL de votre site local).
-    * **`script.js`**:  Remplacez le chemin relatif vers `config.php` par un chemin absolu, par exemple : `http://localhost/chatsenscene/config.php`.
+    * **`config.php`**:  Si vous êtes en local, remplacez `http://chatsenscene.kubel.tech/` par `http://localhost/chatsenscene/` (ou l'URL de votre site local).
+    * **`script.js`**:  Remplacez `http://chatsenscene.kubel.tech/` par `http://localhost/chatsenscene/` (ou l'URL de votre site local).
 9. **Accéder au site web :** Ouvrez votre navigateur web et accédez à l'URL de votre site web local (par exemple, `http://localhost/chatsenscene/`).
